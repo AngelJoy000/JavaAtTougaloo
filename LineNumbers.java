@@ -2,7 +2,7 @@ import java.util.*;
 import java.io.*;
 
 
-/**@author Lemuel M. Uhuru
+/**@author Lemuel M. Uhuru and Angel Patterson
  * @Date   August 2, 2013
  * Book Title: From Control Structures through Objects by Tony Gaddis 
  * Page: 269 Challenge 14: Line Numbers
