@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.io.*;
 
 
-/**@author Lemuel M. Uhuru
+/**@author Lemuel M. Uhuru and Angel Patterson
  * @Date   June 23, 2013
  * Book Title: From Control Structures through Objects by Tony Gaddis 
  * Page: 267 Challenge 3: Distance File
