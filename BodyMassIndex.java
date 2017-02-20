@@ -1,8 +1,7 @@
 import javax.swing.JOptionPane;
 
 
-/**@author Lemuel M. Uhuru
- * @Date   June 6, 2013
+/**@author Angel Patterson
  * Book Title: From Control Structures through Objects by Tony Gaddis 
  * Page: 189 Problem 3: Body Mass Index
  * 
