@@ -1,6 +1,6 @@
 import javax.swing.JOptionPane;
 
-/**@author Lemuel M. Uhuru
+/**@author Lemuel M. Uhuru and Angel Patterson
  * @Date   June 13, 2013
  * Book Title: From Control Structures through Objects by Tony Gaddis 
  * Page: 190 Problem 10: Fat Gram Calculator
