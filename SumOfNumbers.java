@@ -1,6 +1,6 @@
 import javax.swing.JOptionPane;
 
-/**@author Lemuel M. Uhuru
+/**@author Lemuel M. Uhuru and Angel Patterson
  * @Date   June 20, 2013
  * Book Title: From Control Structures through Objects by Tony Gaddis 
  * Page: 266 Challenge 1: Sum of Numbers
