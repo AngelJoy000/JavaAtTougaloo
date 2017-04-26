@@ -1,30 +1,76 @@
-import javax.swing.JOptionPane;
-
-
-/**@author Lemuel M. Uhuru
- * @Date   June 4, 2013
- * Book Title: From Control Structures through Objects by Tony Gaddis 
- * Page: 187 Problem 1: Roman Numerals
- * 
- * Program that prompts the user to enter a number within the range
- * of 1 through 10. Program should display the Roman numeral version 
- * of that number. If the number is outside the range of 1 through 10, 
- * the program should display an error message.
+/**
+ * AWT Sample application
+ *
+ * @author Angel Patterson
+ * @version 1.00 17/02/02
  */
 
-public class RomanNumerals {
+        
+  import java.util.Scanner;
+ 
+  public class RomanNumerals {
+    
+    public static void main(String[] args) {
+        
+        Scanner keyboard = new Scanner(System.in);
 
-	public static void main(String[] args) {
-		// Create a variable to hold user input
-		String input;
-		// Prompt user for numerical input from 1-10
-		input = JOptionPane.showInputDialog(null, "Enter a number 1 - 10 ");
-		// Convert input to an integer
-		int n = Integer.parseInt(input);
-		// Use decision structure to validate user input
-		if(n < 1 ||  n > 10){
-			JOptionPane.showMessageDialog(null, "Invalid input!");
-		}
-	}
+    // Get a number from the user.
+    System.out.print("Enter a number in the range of 1 - 10: \n ");
 
+    int number = keyboard.nextInt(); // User input number
+
+    //close stream
+    keyboard.close();
+
+    // Get Roman numeral.
+    String RomanNumeral = convertNumberToRomanNumeral(number);
+
+    // Output to user
+    System.out.println("Your Roman Numeral Number is  " + RomanNumeral);
 }
+
+/**
+ * Method should return a Roman numeral that represents
+ * the number input.
+ *
+ * @param number
+ * @return String that represents a Roman numeral
+ */
+static String convertNumberToRomanNumeral(Integer number) {
+
+    switch (number) {
+    case 1:
+        return "I";
+
+    case 2:
+        return "II";
+
+    case 3:
+        return "III";
+
+    case 4:
+        return "IV";
+
+    case 5:
+        return "V";
+
+    case 6:
+        return "VI";
+
+    case 7:
+        return "VII";
+
+    case 8:
+        return "VIII";
+
+    case 9:
+        return "IX";
+
+    case 10:
+        return "X";
+
+    default:
+        return "Invalid number. Please try again and this time follow instructions.";
+   
+    }
+}}
